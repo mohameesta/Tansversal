@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(42, 42, 42);
+}
+
+/*HEADER*/
+
+header {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.Titulo { /*Ttitulo de tarjeta roja*/
+    color: red;
+    text-align: left;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-size: 70px;
+}
+
+h1 {
+    color: white;
+}
+
+.p_blanco {
+    color: white;
+}
+
+div {
+    clear: both;
+    display: table; 
+    color: azure;
+}    
+
+.sabies {
+    background-color: rgb(247, 255, 240);
+}
+
+/*IMAGENES*/
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    float: left;
+}
+
+.imgdreta {
+    float: left;
+    margin-right:15px;
+}
+
+.imgesquerra {
+    float: right;
+    margin-left:15px;
+}
+
+
+
+/*NAVEGACIÓN*/
+
+.navbarra {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbarra ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarra li {
+    margin: 0 10px;
+}
+
+.navbarra a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.navbarra a:hover {
+    background-color: red;
+}
