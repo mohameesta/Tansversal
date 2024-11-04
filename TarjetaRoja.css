@@ -5,9 +5,7 @@ body {
 /*HEADER*/
 
 header {
-    align-items: center;
-    display: flex;
-    padding: 10px;
+    text-align: center;
 }
 
 .Titulo { /*Ttitulo de tarjeta roja*/
@@ -34,15 +32,19 @@ div {
 
 .sabies {
     background-color: rgb(247, 255, 240);
+    text-align: center;
+}
+
+header {
+    width: 100%;
 }
 
 /*IMAGENES*/
 
 .logo {
-    width: 100px;
-    height: 100px;
-    margin-right: 15px;
-    float: left;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .imgdreta {
@@ -71,12 +73,12 @@ div {
 }
 
 .navbarra li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .navbarra a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 60px;
     color: white;
     text-decoration: none;
     background-color: grey;
