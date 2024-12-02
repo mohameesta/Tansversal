@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8" />
+        <title>Formulario</title>
+        <link rel="stylesheet" href="../css/forumulario.css" />
+        <link rel="stylesheet" href="../css/TarjetaRoja.css">
+        <link rel="stylesheet" href="../css/header.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbarra">
+                <ul id="ulbarra">
+                    <li class="libarra"><a href="../html/index.html">Principal</a></li>
+                    <li class="libarra"><a href="../html/Expulsiones.html">Expulsiones</a></li>
+                    <li class="libarra"><a href="../html/Polemicas.html">Polémicas</a></li>
+                    <li class="libarra"><a href="../html/Nosotros.html">Nosotros</a></li>
+                    <li class="libarra"><a href="../html/Formulario.html">Formulario</a></li>
+                    <li class="libarra"><a href="../html/Galeria.html">Galeria</a></li>
+                </ul>
+                <img class="logo" src="../Fotos/Logo2.png">
+            </nav>
+        </header>
+
+        <br>
+        <section>
+            <div id="formulario">
+                <form>
+                        
+                    <h1 id="tit">Formulario</h1>
+                        
+                    <label for="name">Nombre y apellidos:</label>
+                    <br>
+                    <input type="text" name="username" id="name" tabindex="1" required placeholder="Escribe tu nombre y apellidos" />
+                    <br><br>
+
+                    <label for="correu">Correo electrónico:</label>
+                    <br>
+                    <input type="email" name="correu" id="correo" tabindex="2" required  placeholder="Escribe tu correo electrónico"/>
+                    <br><br>
+
+                    <label for="Hombre">Género:</label>
+                    <br>
+                    <div id="genero">
+                        <input type="radio" class="escoger" name="Género" id="Hombre" tabindex="3" value="H" required />
+                        <label class="generos" for="Hombre">Hombre</label>
+
+                        <input type="radio" class="escoger" name="Género" id="Mujer" tabindex="4" value="M" required />
+                        <label class="generos" for="Mujer">Mujer</label>
+
+                        <input type="radio" class="escoger" name="Género" id="Otros" tabindex="5" value="O" required />
+                        <label class="generos" for="Otros">Otros</label>
+                    </div>    
+                    <br>
+
+                    <label for="liga">Liga favorita:</label>
+                    <br>
+                    <select name="liga" id="liga" tabindex="6" required>
+                        <option value="la_liga">La Liga (España)</option>
+                        <option value="premier">Premier League (Inglaterra)</option>
+                        <option value="serie_a">Serie A (Italia)</option>
+                        <option value="bundesliga">Bundesliga (Alemania)</option>
+                        <option value="ligue_1">Ligue 1 (Francia)</option>
+                        <option value="otra">Otra</option>
+                    </select>
+                    <br><br>
+
+                    <label for="Hombre">Deseas recibir notificaciones:</label>
+                    <br>
+                    <div id="genero">
+                        <input type="radio" class="escoger" name="Género" id="Hombre" tabindex="3" value="H" required />
+                        <label class="generos" for="Hombre">Si, quiero recibir notificaciones.</label>
+                        
+                        <input type="radio" class="escoger" name="Género" id="Mujer" tabindex="4" value="M" required />
+                        <label class="generos" for="Mujer">No quiero recibir notificaciones.</label>
+                    </div>    
+                    <br>
+
+                    <label for="equipo">Equipo favorito:</label>
+                    <br>
+                    <input type="text" name="equipo" id="equipo" tabindex="8" placeholder="Introduce el nombre de tu equipo favorito" />
+                    <br><br>
+
+                    <label for="sugerencias">Sugerencias:</label>
+                    <br>
+                    <textarea name="sugerencias" id="sugerencias" tabindex="9" required placeholder="Escribe una sugerenica"></textarea>
+                    <br><br>
+                        
+                    <button type="submit">
+                        <span>Enviar</span>
+                    </button> 
+                </form>     
+            </div>
+        </section>
+        <footer> 
+            <p class="sabies">MOHAMED AFKIR I IVAN CUARTERO</p>
+            <p class="sabies">Institut TIC Barcelona</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+
+
+#formulario {
+    border: solid 5px; 
+    border-radius: 10px;
+    background-color: #ff8166;
+    padding: 20px; 
+    margin: auto; 
+    width: 40%; 
+    box-shadow: 0px 40px 100px rgba(255, 0, 0, 0.5);
+}
+
+input, select, textarea {
+    margin-left: 50px;
+    border: solid 2px;
+    width: 70%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+label {
+    margin-left: 50px;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.escoger {
+    margin-left: 50px;
+    width: 15px;
+}
+
+.generos {
+    margin-left: 10px;
+}
+
+#genero {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#liga {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin-left: 70%;
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #9500,
+        #09F,
+        #00DDFF
+    );
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 15px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+button span {
+    background-color: #111;
+    padding: 8px 8px;
+    border-radius: 6px;
+}
+
+#tit {
+    text-align: center; 
+    margin: 20px 0; 
+    font-size: 2em; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#notificaciones {
+    margin-left: 50px;
+}
+
+#notificaciones + label {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    #formulario {
+        width: 80%;
+    }
+
+    input, select, textarea {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}

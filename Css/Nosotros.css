@@ -1,0 +1,46 @@
+.nosaltresimg {
+    height: 50%;
+    width: 50%;
+}
+
+
+.divnosaltres {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    justify-content: center; 
+    align-items: center;
+}    
+
+.ptext {
+    clear: both;
+    display: table; 
+    color: azure;
+    font-family: 'sans-serif';
+    font-size: large;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vermas {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70%;
+    border:0;
+        background-image: linear-gradient(
+            150deg,
+            #9500,
+            rgb(255, 0, 0),
+            #d64545
+        );
+        border-radius: 8px;
+    color:#fff;
+    display: flex;
+    font-size: 15px;
+    padding: 3px;
+    cursor: pointer;
+}
